@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" href = "../a.png" type = "image/x-icon">
+    <title>Heap Sort</title>
+    <link rel="stylesheet" href="sort.css" />
+</head>
+<body>
+
+<nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+     
+      <ul id="menu">
+        <a href="../index.html"><li>Home</li></a>
+        <a href="bubblesort.html"><li>Bubble Sort</li></a>
+        <a href="insertionsort.html"><li>Insertion Sort</li></a>
+        <a href="selectionsort.html"><li>Selection Sort</li></a>
+        <a href="bucket.html"><li>Bucket Sort</li></a>
+        <a href="countingsort.html"><li>Counting Sort</li></a>
+	<hr>
+        <a href="../path/bfs.html"><li>BFS</li></a>
+        <a href="../path/dfs.html"><li>DFS</li></a>
+        <a href="../path/dijkstra.html"><li>Dijkstra</li></a>
+	<hr>
+        <a href="../data_structures/linked_list.html"><li>Linked List</li></a>
+        <a href="../data_structures/queue.html"><li>Queue</li></a>
+        <a href="../data_structures/stack.html"><li>Stack</li></a>
+	<hr>
+	<a href="../searching/linear_search.html"><li>Linear Search</li></a>
+        <a href="../searching/binary_search.html"><li>Binary Search</li></a>
+      </ul>
+    </div>
+  </nav>
+    <script src="heap.js"></script>
+
+
+	<p class="header">HEAP SORT</p>
+    
+    <h3 id = "swip">Swap Counter : 0</h3>	
+    <div id = "dabba"><div id="array"></div></div>
+	
+    <div id = "buttons">
+        <button onclick="HeapSort(10)" class="btn-45"><span>Sort!</span></button>
+        <button onclick="generatearray()" class="btn-45"><span>New Array</span></button>
+        <button onclick="stopsort()" class="btn-45"><span>Stop!</span></button>
+    </div>
+
+ 
+	<div class="container">
+        <div class="card">
+            <div class="infoCard">
+                <div class="infoimage">
+                    
+                    <div class="level simpleInfo">
+                        <h1>Analysis</h1>
+                    </div >
+                    
+                 
+                </div>
+                <div class="infoDetails">
+                    
+                        <h1>Heap Sort</h1>
+                        <br>
+                            <h3>Worst Complexity: <strong>O</strong>(nlogn)</h3>
+							<h3>Average complexity: <strong>O</strong>(nlogn)</h3>
+							<h3>Best complexity: <strong>O</strong>(nlogn)</h3>
+                            <h3>Space Complexity: <strong>O</strong>(1)</h3>
+                        
+                
+                </div>
+            </div>
+            <div class="description">
+                <div class="name">
+                    <h1>Heap Sort</h1>
+                </div>
+                <div class="textDescription">
+                    <p>Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
+                    </p>
+					<br>
+                </div>
+                <h4>Mouse over to show more info</h4>
+            </div>
+        </div>
+    </div>																																														
+	<script src="heap.js"></script>
+</body>
+
+</html>

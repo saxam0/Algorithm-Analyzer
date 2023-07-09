@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" href = "../a.png" type = "image/x-icon">
+    <title>Binary Search</title>
+    <link rel="stylesheet" href="binary_search.css" />
+</head>
+<body>
+
+<nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+     
+      <ul id="menu">
+        <a href="../index.html"><li>Home</li></a>
+        <a href="../sorting/bubblesort.html"><li>Bubble Sort</li></a>
+        <a href="../sorting/insertionsort.html"><li>Insertion Sort</li></a>
+        <a href="../sorting/selectionsort.html"><li>Selection Sort</li></a>
+        <a href="../sorting/heap.html"><li>Heap Sort</li></a>
+        <a href="../sorting/bucket.html"><li>Bucket Sort</li></a>
+        <a href="../sorting/countingsort.html"><li>Counting Sort</li></a>
+        <hr>
+        <a href="../path/bfs.html"><li>BFS</li></a>
+        <a href="../path/dfs.html"><li>DFS</li></a>
+        <a href="../path/dijkstra.html"><li>Dijkstra</li></a>
+        <hr>
+        <a href="../data_structures/linked_list.html"><li>Linked List</li></a>
+        <a href="../data_structures/queue.html"><li>Queue</li></a>
+        <a href="../data_structures/stack.html"><li>Stack</li></a>
+        <hr>
+        <a href="../searching/linear_search.html"><li>Linear Search</li></a>
+        
+      </ul>
+    </div>
+  </nav>
+    <script src="binary_search.js"></script>
+
+
+	<p class="header">BINARY SEARCH</p>
+    <br>
+    <br>
+    <div id = "dabba"><div id="array"></div></div>
+    <br>
+    <h3 id = "swap">Swap Counter : 0</h3>
+    <div style="text-align: center">
+    <div class = "NTBS">
+        <label for="fname">
+            Number to be Searched:
+        </label>
+        <input type="text" id="fname" name="fname" maxlength="4" size="4"/>
+        <br />
+        <div id="text"></div>
+        </div>
+    </div>
+    <div id = "buttons">
+        <button onclick="generatearray()" class="btn-45"><span>New Array</span></button>
+        <button onclick="BinarySearch()" class="btn-45"><span>Search</span></button>
+        
+        <!-- <button onclick="stopsort()" class="btn-45"><span>Stop!</span></button> -->
+    </div>
+
+ 
+	<div class="container">
+        <div class="card">
+            <div class="infoCard">
+                <div class="infoimage">
+                    
+                    <div class="level simpleInfo">
+                        <h1>Analysis</h1>
+                    </div >
+                    
+                 
+                </div>
+                <div class="infoDetails"> 
+                        <h1>Binary Search</h1>
+                        <br>
+                            <h3>Worst Complexity: <strong>O</strong>(logn)</h3>
+							<h3>Average complexity: <strong>O</strong>(logn)</h3>
+							<h3>Best complexity: <strong>O</strong>(logn)</h3>
+                            <h3>Space Complexity: <strong>O</strong>(1)</h3>
+                </div>
+            </div>
+            <div class="description">
+                <div class="name">
+                    <h1>Binary Search</h1>
+                </div>
+                <div class="textDescription">
+                    <p>
+                        Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted.
+                    </p>
+					<br>
+                </div>
+                <h4>Mouse over to show more info</h4>
+            </div>
+        </div>
+    </div>																																														
+	<script src="binary_search.js"></script>
+</body>
+
+</html>

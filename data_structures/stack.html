@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" href = "../a.png" type = "image/x-icon">
+    <link rel="stylesheet" href="stack.css" />
+    <title>Stack</title>
+</head>
+<body> <nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="../index.html"><li>Home</li></a>
+        <a href="../sorting/bubblesort.html"><li>Bubble Sort</li></a>
+        <a href="../sorting/insertionsort.html"><li>Insertion Sort</li></a>
+        <a href="../sorting/selectionsort.html"><li>Selection Sort</li></a>
+        <a href="../sorting/heap.html"><li>Heap Sort</li></a>
+        <a href="../sorting/bucket.html"><li>Bucket Sort</li></a>
+        <a href="../sorting/countingsort.html"><li>Counting Sort</li></a>
+	<hr>
+        <a href="../path/bfs.html"><li>BFS</li></a>
+        <a href="../path/dfs.html"><li>DFS</li></a>
+        <a href="../path/dijkstra.html"><li>Dijkstra</li></a>
+	<hr>
+        <a href="queue.html"><li>Queue</li></a>
+        <a href="linked_list.html"><li>Linked List</li></a>
+	<hr>
+	<a href="../searching/linear_search.html"><li>Linear Search</li></a>
+	<a href="../searching/binary_search.html"><li>Binary Search</li></a>
+        
+      </ul>
+    </div>
+  </nav>
+  <p class="header">STACK</p>
+  <div class="float-container">
+    <div class="float-child">
+
+        <div id="listbox">
+            
+            <ul id="list">
+                
+            </ul>
+          </div>
+    
+
+    </div>
+    <div class="float-child">
+      <p id = "error">No. of elements : 0</p>
+      <input id="inputTxt" /><br>
+      <div id = buttons>  
+        <button id = "addBtn" class="btn-45"><span>PUSH</span></button>       
+        <button id="delete_front"  class="btn-45"><span>POP</span></button>   
+      </div>
+      <div class="container">
+        <div class="card">
+            <div class="infoCard">
+                <div class="infoimage">
+                    
+                    <div class="level simpleInfo">
+                        <h1>Analysis</h1>
+                    </div >
+                    
+                 
+                </div>
+                <div class="infoDetails">
+                    
+                        <h1>STACK</h1>
+                        <br>
+                            <h3>Time Complexity:O(1)</h3>  
+
+                            <h3>Space Complexity: O(n)</h3><br>
+
+
+							<br>
+                        
+                
+                </div>
+            </div>
+            <div class="description">
+                <div class="name">
+                    <h1>STACK</h1>
+                </div>
+                <div class="textDescription">
+                    <p>Stack is a linear data structure which follows
+                       a particular order in which the operations are performed.
+                       The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+                    </p>
+					<br>
+                </div>
+                <h4>Mouse over to show more info</h4>
+            </div>
+        </div>
+    </div>		
+  </div>
+    </div>
+          <script src="stack.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "../a.png" type = "image/x-icon">
+    <title>DFS</title>
+    <link rel="stylesheet" href="path.css" />
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+         
+          <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+        <a href="../sorting/bubblesort.html"><li>Bubble Sort</li></a>
+        <a href="../sorting/insertionsort.html"><li>Insertion Sort</li></a>
+        <a href="../sorting/selectionsort.html"><li>Selection Sort</li></a>
+        <a href="../sorting/heap.html"><li>Heap Sort</li></a>
+        <a href="../sorting/bucket.html"><li>Bucket Sort</li></a>
+        <a href="../sorting/countingsort.html"><li>Counting Sort</li></a>
+        <hr>
+        <a href="bfs.html"><li>BFS</li></a>
+        <a href="dijkstra.html"><li>Dijkstra</li></a>
+        <hr>
+        <a href="../data_structures/linked_list.html"><li>Linked List</li></a>
+        <a href="../data_structures/stack.html"><li>Stack</li></a>
+        <a href="../data_structures/queue.html"><li>Queue</li></a>
+        <hr>
+        <a href="../searching/linear_search.html"><li>Linear Search</li></a>
+        <a href="../searching/binary_search.html"><li>Binary Search</li></a>
+            
+          </ul>
+        </div>
+      </nav>
+      <p id= "head" class="header">DEPTH FIRST SEARCH</p>
+    <div id = "graph"></div>
+    <div id = "buttons">
+    <button id = "obs" onclick = "obs()" class="btn-45"><span>Generate obstacles!</span></button>
+    <button id = "clear"  class="btn-45"><span>Clear</span></button>
+  </div>
+  <div class="container">
+    <div class="card">
+        <div class="infoCard">
+            <div class="infoimage">
+                
+                <div class="level simpleInfo">
+                    <h1>Analysis</h1>
+                </div >
+                
+             
+            </div>
+            <div class="infoDetails">
+                
+                    <h1>Depth First Search</h1>
+                    <br>
+                        <h3>Time Complexity:O(V + E)</h3>  
+
+                        <h3>Space Complexity: O(V)</h3><br>
+                        <h3>V is number of nodes and E is number of edges</h3>
+
+          <br>
+                    
+            
+            </div>
+        </div>
+        <div class="description">
+            <div class="name">
+                <h1>Depth First Search</h1>
+            </div>
+            <div class="textDescription">
+                <p>Depth-first search is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node and explores as far as possible along each branch before backtracking.
+                </p>
+      <br>
+            </div>
+            <h4>Mouse over to show more info</h4>
+        </div>
+    </div>
+</div>		
+    <script src="dfs.js"></script>
+</body>
+</html>

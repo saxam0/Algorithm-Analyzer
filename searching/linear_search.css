@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+::-webkit-scrollbar {
+  display: none;  /* Hides scrollbar */
+}
+
+.header {
+	font-size: 50px;
+  font-weight: 600;
+	text-align: center;
+	color: #b96dd7;
+	font-family: "Poppins", sans-serif;
+    
+}
+h1{
+	color: #b96dd7;
+    
+}
+#array {
+	background-color: white;
+	height: 97px;
+	width: 854px;
+	margin: auto;
+	position: relative;
+
+}
+
+.block {
+	width: 80px;
+	background-color: #584d75;
+	position: absolute;
+	bottom: 0px;
+	transition: 0.4s all ease;
+    border-radius: 11px;
+}
+
+.block_id {
+	position: absolute;
+	color: #fff;
+	margin-top: 22px;
+	width: 100%;
+	font-size: 25px;
+	font-family: "Poppins", sans-serif;
+	text-align: center;	
+}
+.NTBS {
+	text-align: center;
+    font-size: 29px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: #b96dd7;
+}
+.container {
+    margin: 0;
+    padding: 0;
+	font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    width: 700px;
+    height: 300px ;
+    margin: auto;
+    background-color: #913ab3;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 14px 100px #865193;
+}
+
+.card:hover .description {
+    left: 100%;
+}
+
+.infoCard {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoCard .infoimage {
+    width: 37%;
+    padding: 0 4% 0 .5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoCard .infoimage .img {
+    padding: 25px 10px;
+    margin: 40px auto;
+    border-radius: 50%;
+    border: 2px solid #7e44fc;
+    background-color: cornsilk;
+}
+
+.infoCard .infoimage .simpleInfo {
+    background-color: #590f74;
+    padding: 3px 6px;
+    margin: 50%;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.infoCard .infoimage .simpleInfo h3 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.infoCard .infoDetails {
+    width: 62%;
+    align-self: stretch;
+    color: #fff;
+    padding: 0 2%;
+    position: relative;
+}
+
+.description {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 37%;
+    background-color: #fff;
+    width: 63%;
+    height: 100%;
+    transition: .5s all;
+    overflow: hidden;
+    border-radius: 0 3px 3px 0;
+    opacity: 1;
+}
+
+.description .name {
+    text-align: center;
+    padding: 10px 0px 5px;
+}
+
+.description .name h1 {
+    margin: 0;
+    font-size: 2.4em;
+}
+
+.description .textDescription p {
+	text-align: center;
+    padding: 10px;
+}
+
+.description h4 {
+ 
+    bottom: 10px;
+    right: 10px;
+	text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    color: #7e44fc;
+}
+
+#dabba{
+    width: 900px;
+    height: 120px;
+    margin-top: 35px;
+    border: 3px solid #b96dd7;
+    padding: 0px;
+    margin-left: 330px;
+    border-radius: 11px;
+  }
+#buttons{
+  margin-left: 35%;
+}
+  .btn-45,
+.btn-45 *,
+.btn-45 :after,
+.btn-45 :before,
+.btn-45:after,
+.btn-45:before {
+  border: 0 solid;
+  
+  box-sizing: border-box;
+}
+.btn-45 {
+    
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #ddb3e4;
+  background-image: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;  
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, rgb(203, 162, 213));
+  padding: 0;
+}
+.btn-45:disabled {
+  cursor: default;
+}
+.btn-45:-moz-focusring {
+  outline: auto;
+}
+.btn-45 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-45 [hidden] {
+  display: none;
+}
+.btn-45 {
+    
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  /* display: block; */
+  overflow: hidden;
+  margin-top: 30px;
+  /* margin-left: 690px; */
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-45 span {
+  font-weight: 900;
+  mix-blend-mode:lighten;
+}
+.btn-45:after,
+.btn-45:before {
+  background: #b96dd7;
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: transform 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+  width: 100%;
+  will-change: transform;
+}
+.btn-45:after {
+  background: #e6aaf3;
+  transition-delay: 0.1s;
+  z-index: -1;
+}
+.btn-45:hover:after,
+.btn-45:hover:before {
+  transform: translateX(100%);
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #edb8f7;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #913ab3 ;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  font-family: "Poppins", sans-serif;
+  
+  position: absolute;
+  width: 260px;
+  height: 1000px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #e0d6e2;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{ color: #913ab3 ;
+  padding: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+#menu li:hover
+{
+  color: #590f74;
+}
+
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+#swap{
+  text-align: center;
+}
+
+#swap {
+ text-align: center;
+  font-size: 0em;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  color: #f8f6f9;
+}
+
+#swip {
+ 
+  bottom: 10px;
+  right: 10px;
+text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  color: #fff;
+}
+
+#fname{
+  text-align: center;
+  margin-top: 20px;
+  width: 200px;
+  color: #913ab3;
+  border-radius: 34px;
+  border-color: #b96dd7;
+  font-size: 29px;
+} 
+hr{
+
+  border-top: 1px solid #b05fd0;
+  
+}
